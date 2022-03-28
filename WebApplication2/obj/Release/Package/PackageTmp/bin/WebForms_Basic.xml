@@ -64,18 +64,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebApplication2.display._GridView1">
+<member name="F:WebApplication2.display._Button2">
 <summary>
-GridView1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebApplication2.display._SqlDataSource2">
-<summary>
-SqlDataSource2 control.
+Button2 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -91,18 +82,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebApplication2.response._TextBox1">
+<member name="F:WebApplication2.display._GridView1">
 <summary>
-TextBox1 control.
+GridView1 control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebApplication2.response._Button1">
+<member name="F:WebApplication2.display._SqlDataSource1">
 <summary>
-Button1 control.
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication2.response._TextBox1">
+<summary>
+TextBox1 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -184,6 +184,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:WebApplication2.response._DropDownList1">
 <summary>
 DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication2.response._TextBox4">
+<summary>
+TextBox4 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -280,9 +289,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:WebApplication2.WebForm1._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:WebApplication2.WebForm1._TextBox1">
 <summary>
 TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication2.WebForm1._Label4">
+<summary>
+Label4 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -328,6 +355,42 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:WebApplication2.WebForm1._Label2">
 <summary>
 Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication2.WebForm2._Button2">
+<summary>
+Button2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication2.WebForm2._Button1">
+<summary>
+Button1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication2.WebForm2._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication2.WebForm2._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
 </summary>
 <remarks>
 Auto-generated field.

@@ -4,8 +4,8 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\abill\Desktop\ticket admin</_PublishTargetUrl>
-    <History>True|2022-02-23T07:11:22.7393171Z;</History>
+    <_PublishTargetUrl>C:\Users\Administrator.TSPI\Desktop\admin</_PublishTargetUrl>
+    <History>True|2022-03-28T01:51:20.5123362Z;False|2022-03-28T09:50:33.8110994+08:00;False|2022-03-28T09:50:24.7190042+08:00;False|2022-03-28T09:50:20.5501791+08:00;True|2022-03-28T08:56:09.4948310+08:00;True|2022-03-24T11:35:31.1538363+08:00;True|2022-03-24T11:22:51.7444246+08:00;True|2022-03-24T11:16:41.0378823+08:00;True|2022-03-24T11:08:33.4693310+08:00;True|2022-03-24T11:05:13.8344302+08:00;True|2022-03-24T10:43:37.9847453+08:00;True|2022-03-24T10:31:46.0855834+08:00;True|2022-03-24T10:22:36.5822293+08:00;True|2022-03-24T10:17:03.0098636+08:00;True|2022-03-24T08:43:35.8171715+08:00;True|2022-03-18T08:04:09.5295274+08:00;True|2022-03-18T08:01:10.8496546+08:00;True|2022-03-18T07:58:07.6121894+08:00;True|2022-03-18T07:56:15.5250019+08:00;True|2022-03-18T07:52:00.4684503+08:00;True|2022-03-18T07:47:27.8819988+08:00;True|2022-03-18T07:36:39.4880262+08:00;True|2022-03-18T07:32:08.4936367+08:00;True|2022-03-18T07:31:56.6587055+08:00;True|2022-03-18T07:29:15.7643913+08:00;True|2022-03-16T08:30:30.2446518+08:00;True|2022-03-11T15:09:05.7918932+08:00;True|2022-03-11T15:05:10.1151546+08:00;True|2022-03-11T15:00:22.1977308+08:00;True|2022-03-11T10:19:45.9746077+08:00;True|2022-03-11T10:11:49.2564638+08:00;True|2022-03-11T09:43:45.4863545+08:00;True|2022-03-11T07:41:17.9683473+08:00;True|2022-03-10T09:19:34.4088658+08:00;True|2022-03-08T10:34:42.5806567+08:00;True|2022-03-08T10:28:50.5290373+08:00;True|2022-02-23T15:28:58.5425718+08:00;True|2022-02-23T15:14:07.3784490+08:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="About.aspx">
@@ -24,19 +24,19 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>02/23/2022 14:33:00</publishTime>
     </File>
     <File Include="bin/BouncyCastle.Crypto.dll">
-      <publishTime>02/23/2022 14:32:59</publishTime>
+      <publishTime>01/31/2019 19:53:56</publishTime>
     </File>
     <File Include="bin/Google.Protobuf.dll">
-      <publishTime>02/23/2022 14:32:59</publishTime>
+      <publishTime>11/13/2020 15:09:34</publishTime>
     </File>
     <File Include="bin/K4os.Compression.LZ4.dll">
-      <publishTime>02/23/2022 14:32:59</publishTime>
+      <publishTime>09/12/2020 01:11:58</publishTime>
     </File>
     <File Include="bin/K4os.Compression.LZ4.Streams.dll">
-      <publishTime>02/23/2022 14:32:59</publishTime>
+      <publishTime>09/12/2020 01:12:00</publishTime>
     </File>
     <File Include="bin/K4os.Hash.xxHash.dll">
-      <publishTime>02/23/2022 14:32:59</publishTime>
+      <publishTime>07/03/2019 20:39:02</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
       <publishTime>02/23/2022 14:33:00</publishTime>
@@ -216,34 +216,34 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>02/23/2022 14:33:01</publishTime>
     </File>
     <File Include="bin/System.Buffers.dll">
-      <publishTime>02/23/2022 14:32:59</publishTime>
+      <publishTime>02/19/2020 10:05:18</publishTime>
     </File>
     <File Include="bin/System.Memory.dll">
-      <publishTime>02/23/2022 14:32:59</publishTime>
+      <publishTime>02/23/2022 11:38:49</publishTime>
     </File>
     <File Include="bin/System.Numerics.Vectors.dll">
-      <publishTime>02/23/2022 14:32:59</publishTime>
+      <publishTime>02/23/2022 11:38:49</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
       <publishTime>02/23/2022 14:33:00</publishTime>
     </File>
     <File Include="bin/Ubiety.Dns.Core.dll">
-      <publishTime>02/23/2022 14:32:59</publishTime>
+      <publishTime>12/01/2021 23:07:26</publishTime>
     </File>
     <File Include="bin/WebApplication2.dll">
-      <publishTime>02/23/2022 15:08:38</publishTime>
+      <publishTime>03/28/2022 09:51:10</publishTime>
     </File>
     <File Include="bin/WebApplication2.pdb">
-      <publishTime>02/23/2022 15:08:38</publishTime>
+      <publishTime>03/28/2022 09:51:10</publishTime>
     </File>
     <File Include="bin/WebForms_Basic.xml">
-      <publishTime>02/23/2022 15:08:38</publishTime>
+      <publishTime>03/28/2022 09:51:10</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>02/23/2022 14:33:01</publishTime>
     </File>
     <File Include="bin/ZstdNet.dll">
-      <publishTime>02/23/2022 14:32:59</publishTime>
+      <publishTime>12/01/2021 23:07:26</publishTime>
     </File>
     <File Include="Bundle.config">
       <publishTime>02/23/2022 14:32:59</publishTime>
@@ -282,7 +282,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>02/23/2022 14:32:59</publishTime>
     </File>
     <File Include="display.aspx">
-      <publishTime>02/23/2022 15:09:40</publishTime>
+      <publishTime>03/28/2022 09:39:55</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>02/23/2022 14:33:00</publishTime>
@@ -306,7 +306,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>02/23/2022 14:32:59</publishTime>
     </File>
     <File Include="login.aspx">
-      <publishTime>02/23/2022 14:33:00</publishTime>
+      <publishTime>03/11/2022 15:04:57</publishTime>
     </File>
     <File Include="pictures/BG.jpg">
       <publishTime>02/23/2022 14:33:00</publishTime>
@@ -320,8 +320,11 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="pictures/images.jpg">
       <publishTime>02/23/2022 14:33:00</publishTime>
     </File>
+    <File Include="print.aspx">
+      <publishTime>03/24/2022 10:43:17</publishTime>
+    </File>
     <File Include="response.aspx">
-      <publishTime>02/23/2022 14:33:00</publishTime>
+      <publishTime>03/28/2022 08:54:27</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>02/23/2022 14:32:59</publishTime>
@@ -423,7 +426,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>02/23/2022 14:32:59</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>02/23/2022 15:11:20</publishTime>
+      <publishTime>03/18/2022 08:01:10</publishTime>
+    </File>
+    <File Include="WebForm2.aspx">
+      <publishTime>03/24/2022 11:33:59</publishTime>
     </File>
   </ItemGroup>
 </Project>

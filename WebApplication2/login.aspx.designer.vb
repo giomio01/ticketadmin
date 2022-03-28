@@ -14,6 +14,15 @@ Option Explicit On
 Partial Public Class WebForm1
 
     '''<summary>
+    '''Label3 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''TextBox1 control.
     '''</summary>
     '''<remarks>
@@ -21,6 +30,15 @@ Partial Public Class WebForm1
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Label4 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label4 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''TextBox2 control.

@@ -2,6 +2,14 @@
     Inherits Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+        Try
+            If Session("Login") = "" Then
+                Response.Redirect("login.aspx")
+            End If
+        Catch ex As Exception
+
+        End Try
+
 
     End Sub
 
@@ -14,6 +22,7 @@
     End Sub
 
     Protected Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Session("login") = ""
         Response.Redirect("login.aspx")
     End Sub
 End Class

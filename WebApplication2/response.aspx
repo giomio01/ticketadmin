@@ -17,10 +17,9 @@
             <td class="modal-sm" style="width: 220px; height: 121px">
                 <br />
                 <br />
-                <asp:TextBox ID="TextBox1" runat="server" onkeypress="return ValidNumeric()" style="margin-left: 0"></asp:TextBox>
+                <asp:TextBox ID="TextBox1" runat="server" AutoPostBack="True" onkeypress="return ValidNumeric()" OnTextChanged="TextBox1_TextChanged"  style="margin-left: 0"></asp:TextBox>
                 <br />
                 <br />
-                <asp:Button ID="Button1" runat="server" Text="Search" Width="118px" BorderColor="White" BorderStyle="Outset" BorderWidth="10px" />
             </td>
             <td style="height: 121px">
                 <asp:Label ID="Label11" runat="server" Text="..."></asp:Label>
@@ -88,13 +87,24 @@
                 <asp:TextBox ID="TextBox3" runat="server" Height="175px" Width="335px" TextMode="MultiLine"></asp:TextBox>
             </td>
             <td class="modal-sm" style="width: 220px; height: 25px">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Status:</td>
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; STATUS:<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Handled By:
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Emp No.)</td>
             <td style="height: 25px">
                 <asp:DropDownList ID="DropDownList1" runat="server">
-                    <asp:ListItem>ACTIVE</asp:ListItem>
                     <asp:ListItem>HANDLED</asp:ListItem>
                     <asp:ListItem>ON-GOING</asp:ListItem>
                 </asp:DropDownList>
+                <br />
+                <br />
+                <br />
+                <asp:TextBox ID="TextBox4" onkeypress="return ValidNumeric()" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>

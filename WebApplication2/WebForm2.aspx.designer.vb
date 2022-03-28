@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class display
+Partial Public Class WebForm2
 
     '''<summary>
     '''Button2 control.

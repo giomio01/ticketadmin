@@ -1,5 +1,4 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="display.aspx.vb" Inherits="WebApplication2.display" %>
-
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="WebForm2.aspx.vb" Inherits="WebApplication2.WebForm2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
               <style type="text/css">  
             .scrolling {  
@@ -13,7 +12,7 @@
             }  
         </style>  
     <div style="background-image: url('pictures/BG.jpg'); font-style:oblique; font-size:medium; position:center; padding:15px">
-        <asp:Button ID="Button2" runat="server" BorderColor="Gray" BorderStyle="Inset" ForeColor="Black" Text="Export Files" Width="123px" Height="41px" />
+        <asp:Button ID="Button2" runat="server" BorderColor="Gray" BorderStyle="Inset" ForeColor="Black" Text="Export to Excel" Width="123px" Height="41px" />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="Button1" runat="server" Height="41px" Text="Exit" Width="123px" BorderColor="Gray" BorderStyle="Inset" ForeColor="Black" />
 
@@ -22,10 +21,9 @@
         <br />
 
         <div class=”gvWidthHight”>  
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataKeys="idticket" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="idticket" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None">
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
             <Columns>
-                <asp:CommandField ButtonType="Button" SelectText="Respond" ShowSelectButton="True" />
                 <asp:BoundField DataField="idticket" HeaderText="idticket" InsertVisible="False" ReadOnly="True" SortExpression="idticket" />
                 <asp:BoundField DataField="tick_emp" HeaderText="tick_emp" SortExpression="tick_emp" />
                 <asp:BoundField DataField="tick_name" HeaderText="tick_name" SortExpression="tick_name" />
@@ -51,12 +49,11 @@
             <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
         </asp:GridView>
             </div>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:tspi_dbConnectionString(server) %>" ProviderName="<%$ ConnectionStrings:tspi_dbConnectionString(server).ProviderName %>" SelectCommand="SELECT idticket, tick_emp, tick_name, tick_dept, tick_station, tick_request, tick_info, tick_status, tick_action, handled_by, date_create, date_update FROM ticket ORDER BY tick_status, idticket DESC"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:tspi_dbConnectionString(server) %>" ProviderName="<%$ ConnectionStrings:tspi_dbConnectionString(server).ProviderName %>" SelectCommand="SELECT * FROM ticket  ORDER BY idticket DESC"></asp:SqlDataSource>
         <br />
         <br />
         <br />
         <br />
         
     </div>
-                
 </asp:Content>
