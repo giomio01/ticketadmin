@@ -10,7 +10,7 @@ Public Class WebForm1
         connection.ConnectionString = ("server='localhost';port='3306';username='root';password='gieRHAAA9iSi3ULZ';database='tspi_db'")
 
         Dim query As String
-        query = ("select count(*) from `ticket` where `tick_status`='ACTIVE'")
+        query = ("select count(*) from `ticket` where `tick_status`='ACTIVE'  or `tick_status`='CONTINUING'")
         command = New MySqlCommand(query, connection)
 
         Dim reader As MySqlDataReader
@@ -20,6 +20,7 @@ Public Class WebForm1
             If reader.IsDBNull(0) Then
                 Label3.Text = String.Empty
                 Label3.Text = "No Pending Request"
+                connection.Close()
             Else
                 Label3.Text = reader(0)
                 connection.Close()
@@ -37,6 +38,7 @@ Public Class WebForm1
             If reader1.IsDBNull(0) Then
                 Label4.Text = String.Empty
                 Label4.Text = "Next in Line"
+                connection.Close()
             Else
                 Label4.Text = reader1(0)
                 connection.Close()
@@ -86,7 +88,7 @@ Public Class WebForm1
         Catch ex As Exception
 
         End Try
-            connection.Dispose()
+            connection.Close()
         End If
 
     End Sub

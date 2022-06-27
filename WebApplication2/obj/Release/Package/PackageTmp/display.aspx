@@ -25,19 +25,56 @@
         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataKeys="idticket" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None">
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
             <Columns>
-                <asp:CommandField ButtonType="Button" SelectText="Respond" ShowSelectButton="True" />
-                <asp:BoundField DataField="idticket" HeaderText="idticket" InsertVisible="False" ReadOnly="True" SortExpression="idticket" />
-                <asp:BoundField DataField="tick_emp" HeaderText="tick_emp" SortExpression="tick_emp" />
-                <asp:BoundField DataField="tick_name" HeaderText="tick_name" SortExpression="tick_name" />
-                <asp:BoundField DataField="tick_dept" HeaderText="tick_dept" SortExpression="tick_dept" />
-                <asp:BoundField DataField="tick_station" HeaderText="tick_station" SortExpression="tick_station" />
-                <asp:BoundField DataField="tick_request" HeaderText="tick_request" SortExpression="tick_request" />
-                <asp:BoundField DataField="tick_info" HeaderText="tick_info" SortExpression="tick_info" />
-                <asp:BoundField DataField="tick_status" HeaderText="tick_status" SortExpression="tick_status" />
-                <asp:BoundField DataField="tick_action" HeaderText="tick_action" SortExpression="tick_action" />
-                <asp:BoundField DataField="handled_by" HeaderText="handled_by" SortExpression="handled_by" />
-                <asp:BoundField DataField="date_create" HeaderText="date_create" SortExpression="date_create" />
-                <asp:BoundField DataField="date_update" HeaderText="date_update" SortExpression="date_update" />
+                <asp:hyperlinkfield Text="Select>" datanavigateurlfields="idticket"
+                    datanavigateurlformatstring="response.aspx?idtext={0}" />
+                <asp:BoundField DataField="idticket" HeaderText="ID" InsertVisible="False" ReadOnly="True" SortExpression="idticket">
+                    <HeaderStyle HorizontalAlign="Center" />
+<ItemStyle HorizontalAlign="Center" Width="100px" />
+</asp:BoundField>
+                <asp:BoundField DataField="tick_emp" HeaderText="Employee No." SortExpression="tick_emp">
+                    <HeaderStyle HorizontalAlign="Center" />
+<ItemStyle HorizontalAlign="Center" Width="100px" />
+</asp:BoundField>
+                <asp:BoundField DataField="tick_name" HeaderText="Employee Name" SortExpression="tick_name">
+                    <HeaderStyle HorizontalAlign="Center" />
+<ItemStyle HorizontalAlign="Center" Width="100px" />
+</asp:BoundField>
+                <asp:BoundField DataField="tick_dept" HeaderText="Department" SortExpression="tick_dept">
+                    <HeaderStyle HorizontalAlign="Center" />
+<ItemStyle HorizontalAlign="Center" Width="100px" />
+</asp:BoundField>
+                <asp:BoundField DataField="tick_station" HeaderText="Station" SortExpression="tick_station">
+                    <HeaderStyle HorizontalAlign="Center" />
+<ItemStyle HorizontalAlign="Center" Width="100px" />
+</asp:BoundField>
+                <asp:BoundField DataField="tick_request" HeaderText="Type of Request" SortExpression="tick_request">
+                    <HeaderStyle HorizontalAlign="Center" />
+<ItemStyle HorizontalAlign="Center" Width="100px" />
+</asp:BoundField>
+                <asp:BoundField DataField="tick_info" HeaderText="Ticket Info" SortExpression="tick_info">
+                    <HeaderStyle HorizontalAlign="Center" />
+<ItemStyle HorizontalAlign="Center" Width="100px" />
+</asp:BoundField>
+                <asp:BoundField DataField="tick_status" HeaderText="Ticket Status" SortExpression="tick_status">
+                    <HeaderStyle HorizontalAlign="Center" />
+<ItemStyle HorizontalAlign="Center" Width="100px" />
+</asp:BoundField>
+                <asp:BoundField DataField="tick_action" HeaderText="Final Action" SortExpression="tick_action">
+                    <HeaderStyle HorizontalAlign="Center" />
+<ItemStyle HorizontalAlign="Center" Width="100px" />
+</asp:BoundField>
+                <asp:BoundField DataField="handled_by" HeaderText="Handled By" SortExpression="handled_by">
+                    <HeaderStyle HorizontalAlign="Center" />
+<ItemStyle HorizontalAlign="Center" Width="100px" />
+</asp:BoundField>
+                <asp:BoundField DataField="date_create" HeaderText="Date Created" SortExpression="date_create">
+                    <HeaderStyle HorizontalAlign="Center" />
+<ItemStyle HorizontalAlign="Center" Width="100px" />
+</asp:BoundField>
+                <asp:BoundField DataField="date_update" HeaderText="Date Updated" SortExpression="date_update">
+                    <HeaderStyle HorizontalAlign="Center" />
+<ItemStyle HorizontalAlign="Center" Width="100px" />
+</asp:BoundField>
             </Columns>
             <EditRowStyle BackColor="#999999" />
             <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />

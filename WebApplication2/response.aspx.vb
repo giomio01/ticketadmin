@@ -13,6 +13,41 @@ Public Class response
         Catch ex As Exception
 
         End Try
+        If TextBox1.Text = "" Then
+            TextBox1.Text = Request.QueryString("idtext")
+            If TextBox1.Text = "" Then
+                Label11.Text = "Input Number!"
+            Else
+                connection = New MySqlConnection
+                connection.ConnectionString = ("server='localhost';port='3306';username='root';password='gieRHAAA9iSi3ULZ';database='tspi_db'")
+                Dim query As String
+                query = ("select * from `ticket` where `idticket` = '" & TextBox1.Text & "'")
+                command = New MySqlCommand(query, connection)
+
+
+                Dim reader As MySqlDataReader
+                connection.Open()
+                reader = command.ExecuteReader()
+                If reader.Read() Then
+                    Label6.Text = reader(2)
+                    Label7.Text = reader(1)
+                    Label8.Text = reader(3)
+                    Label9.Text = reader(4)
+                    Label10.Text = reader(5)
+                    TextBox2.Text = reader(6)
+                    TextBox3.Text = reader(8)
+                    DropDownList1.Text = reader(7)
+
+                    connection.Close()
+                    Label11.Text = "Valid Ticket!"
+
+                Else
+                    Label11.Text = "Invalid !!!!!"
+
+                End If
+            End If
+        Else
+        End If
     End Sub
 
 
@@ -46,9 +81,10 @@ Public Class response
         Label9.Text = ""
         Label10.Text = ""
         DropDownList1.Text = ""
-        TextBox1.Text = ""
-        TextBox2.Text = ""
+            TextBox1.Text = ""
+            TextBox2.Text = ""
             TextBox3.Text = ""
+            TextBox4.Text = ""
         End If
     End Sub
 
@@ -89,4 +125,5 @@ Public Class response
             End If
         End If
     End Sub
+
 End Class

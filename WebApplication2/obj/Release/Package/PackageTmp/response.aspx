@@ -99,7 +99,7 @@
             <td style="height: 25px">
                 <asp:DropDownList ID="DropDownList1" runat="server">
                     <asp:ListItem>HANDLED</asp:ListItem>
-                    <asp:ListItem>ON-GOING</asp:ListItem>
+                    <asp:ListItem>CONTINUING</asp:ListItem>
                 </asp:DropDownList>
                 <br />
                 <br />
